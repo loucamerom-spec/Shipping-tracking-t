@@ -2,14 +2,10 @@
 
 This directory contains the database migration files for Supabase PostgreSQL.
 
----
-
 ### Tables
 - **Admins**: Stores admin user authentication data.
 - **Shipments**: Tracks shipping details.
 - **Tracking Events**: Logs timeline events for shipments.
-
----
 
 ### Get Started
 #### 1. Supabase URL and Key
@@ -27,5 +23,3 @@ CREATE TABLE admins (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-
-Happy database management!
